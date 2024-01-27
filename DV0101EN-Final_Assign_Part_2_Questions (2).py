@@ -46,7 +46,7 @@ app.layout = html.Div([
     html.Div(dcc.Dropdown(
             id='select-year',
             options=[{'label': i, 'value': i} for i in year_list],
-            value='select-year',
+            value='Select-year',
             placeholder='Select a year'
         )),
     html.Div([#TASK 2.3: Add a division for output display
